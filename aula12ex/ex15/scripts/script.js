@@ -12,7 +12,7 @@ function verificar() { // Função
         var img = document.createElement('img') // Cria uma foto dinamicamente
         img.setAttribute('id', 'foto')
         if (fsex[0].checked) {  // .checked --> verifica
-            genero = 'Homem'
+            genero = 'Homem'6
             if (idade >= 0 && idade < 10) {
                 img.setAttribute('src', 'imagens/foto-bebe-m.png')
             } else if(idade < 21) {
